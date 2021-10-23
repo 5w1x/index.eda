@@ -161,20 +161,22 @@ body{
 }
 
 .promo {
+    display: flex;
+    justify-content: space-between;
     margin-top: 50px;
     padding-bottom: 50px;
 }
 
 .card {
     padding: 32px;
-   position: relative;
-   border-radius: 20px;
-   overflow: hidden;
-   max-width: 570px;
-   min-height: 380px;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    width: calc(50% - 27px);
+    min-height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .card::before {
